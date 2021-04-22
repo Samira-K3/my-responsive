@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul li{
+  list-style-type: none;
+}
+body{
+    background-color: coral;
+}
+h1{
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 50px;
+}
+h2{
+    text-transform: capitalize;
+    animation: color 2s infinite;
+}
+@keyframes color {
+    0%{color: black;}
+    50%{color: blueviolet;}
+    100%{color: brown;}
+}
+p{
+    text-transform: capitalize;
+    margin-top: 100px;
+    font-size: 25px;
+}
+img{
+    height: 700px;
+}
+.immg{
+    height: 350px;
+    width: 350px;
+}
+h2{
+    text-transform: capitalize;
+    font-family: cursive;
+}
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: green;
+}
